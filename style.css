@@ -1,0 +1,134 @@
+/* Main Body */
+body {
+    background: #e3e5e8;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size:   16px;
+}
+
+
+/* Hyperlinks */
+a       { color: #1772d0; text-decoration: none; }
+a:hover { color: #f09228; text-decoration: none; }
+
+
+/* Profile Photo */
+.photo img {
+    width: 220px;
+    border-radius: 220px;
+    margin-bottom: 10px;
+}
+
+
+/* Main page container */
+.container {
+    width: 1024px;
+    min-height: 200px;
+    margin: 0 auto; /* top and bottom, right and left */
+    border: 1px hidden #000;
+    /* border: none; */
+    text-align: center;
+    padding: 1em 1em 1em 1em; /* top, right, bottom, left */
+    color: #4d4b59;
+    background: #FFFFFF;
+}
+
+
+/* Education/Exerience */
+.education, .experience {
+  width: 900px;
+    min-height: 20px;
+    margin: 0 auto;           /* top and bottom, right and left */
+    border: none;
+    text-align: left;
+    padding: 1em 1em 1em 1em; /* top, right, bottom, left */
+    color: #4d4b59;
+    background: #FFFFFF;
+}
+
+.timeline {
+    width: 100%;
+    border-left: 3px solid #ddd;
+    margin: 0px;
+    margin-left: 0px;
+    margin-left: 12px;
+}
+
+.timeline .timeline-resume {
+    margin: 20px;
+}
+
+.timeline .timeline-item {
+    margin-bottom: 20px;
+}
+
+.timeline .timeline-logo {
+    height: 100px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.timeline .timeline-date {
+    position: relative;
+}
+
+.timeline .timeline-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: green;
+    display: block;
+    position: absolute;
+    left: -27px;
+    top: 5px;
+}
+
+.timeline .timeline-date span {
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+    padding: 3px 5px;
+    font-size: 8pt;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.timeline .timeline-title {
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    margin: 10px 0px;
+    line-height: 1.6;
+}
+
+.timeline .timeline-job-title {
+    font-size: 14px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+
+/* Publications */
+.publication {
+    width: 900px;
+    min-height: 20px;
+    margin: 0 auto;
+    border: none;
+    text-align: left;
+    padding: 1em 1em 1em 1em;
+    color: #4d4b59;
+    background: #FFFFFF;
+}
+
+.paper {
+    clear: both;
+    width: 700px;
+    margin: 0 auto;
+    border: 1px hidden #000;
+    text-align: left;
+    padding: 0em 0em 0em 0em;
+    color: #4d4b59;
+    background: #FFFFFF;
+}
